@@ -5,16 +5,23 @@
 div.static {
     position: static;
     border: 1px solid #73AD21;
+    z-index: 1;
+    border: dashed;
+    height: 100px;
 }
 div.relative {
     position: relative;
+    z-index: 3; 
+    background: gold;
     left: 20px;
     width: 150px;
     border: 1px solid #73AD21;
 }
 div.absolute {
    position: absolute;
-   top: 150px;
+   z-index: 2; 
+   background: lightgreen;
+   top: 75px;
    right: 100;
    width: 200px;
    height: 100px;
